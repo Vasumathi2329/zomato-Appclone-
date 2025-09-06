@@ -13,7 +13,6 @@
   color: white;
 }
 .hero::after {
-  
   position: absolute;
   inset: 0;
   background: rgba(0,0,0,0.5);
@@ -57,7 +56,8 @@
 }
 .hero-content h1 {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .search-box {
   display: flex;
@@ -119,4 +119,27 @@
 }
 .arrow {
   font-weight: bold;
+}
+
+footer {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e23744;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
